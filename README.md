@@ -3,7 +3,7 @@
 ## How to use
 
 ### Type on terminal
-  npx odevitu 
+  npx iamvitu
 
 
 

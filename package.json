@@ -1,6 +1,6 @@
 {
   "name": "iamvitu",
-  "version": "2.2.10",
+  "version": "2.2.11",
   "description": "A personal card for Victor Almeida (@Vitu_Py)",
   "main": "/bin/card.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitucomment/odevitu.git"
+    "url": "git+https://github.com/vitucomment/iamvitu.git"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -39,7 +39,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/vitucomment/odevitu/issues"
+    "url": "https://github.com/vitucomment/iamvitu/issues"
   },
   "dependencies": {
     "commander": "^9.2.0"
