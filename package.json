@@ -1,0 +1,47 @@
+{
+  "name": "iamvitu",
+  "version": "2.2.10",
+  "description": "A personal card for Victor Almeida (@Vitu_Py)",
+  "main": "/bin/card.js",
+  "bin": {
+    "odevitu": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitucomment/odevitu.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card",
+    "estartando devs",
+    "estartando",
+    "devs"
+  ],
+  "author": "Victor Almeida",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/vitucomment/odevitu/issues"
+  },
+  "dependencies": {
+    "commander": "^9.2.0"
+  }
+}
